@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    Coin Flip Game
+  </title>
+</head>
+
+<body>
+  <script>
+    const number = Math.random();
+    const result = number < 0.5 ? 'heads': 'tails';
+    
+    console.log(result);
+    const guess = 'heads';
+
+    const message = guess === result ? 'You win!': 'You lose';
+    console.log(message);
+  </script>
+</body>
